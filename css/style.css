@@ -182,7 +182,7 @@ button:focus {
   color: #ffffff;
   text-align: center;
   min-height: 75%;
-  text-shadow: 0 0 10px #00000080;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 
 .verifiedTag {
@@ -194,6 +194,7 @@ button:focus {
       -ms-flex-align: center;
           align-items: center;
   font-weight: 700;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 
 .social-links ul {
@@ -207,6 +208,7 @@ button:focus {
   margin-right: 24px;
   -webkit-transition: 0.3s all ease-in;
   transition: 0.3s all ease-in;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
 
 .social-links ul li:hover {

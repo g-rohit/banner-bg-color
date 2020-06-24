@@ -78,5 +78,15 @@ function runColorThief(imgElement) {
   console.log(colorCodeGenerated);
 
   var companyBanner = document.querySelector(".companyBanner");
-  companyBanner.style.background = colorCodeGenerated;
+//   let createBg =   colorCodeGenerated + ' url(' + companyProductImage.src + ')' + ' ' + ' no-repeat';
+  let createBg =   'linear-gradient(180deg, rgba(' + r + ',' + g + ',' + b+ ',' + '0.9) 7.31%, rgba(' + r + ',' + g + ',' + b+ ',' + '0.5) 100%), linear-gradient(0deg,' + 'rgba(' + r + ',' + g + ',' + b + ',' + '0.8), rgba(' + + r + ',' + g + ',' + b + ',' + '0.8)), url(' + companyProductImage.src + ')';
+
+console.log(createBg);
+
+//   'linear-gradient(180deg, rgba(' + r + ',' + g + ', ' + b+ ',' + '0.385) 7.31%, rgba(' + r + ',' + g + ', ' + b + ') 100%), linear-gradient(0deg, rgba(' + r + ',' + g + ', ' + b + ',' + '0.4)'+ ',' + 'url(' + companyProductImage.src + ')';
+
+
+  companyBanner.style.background =  createBg ;
+  companyBanner.style.backgroundSize = 'cover';
+ 
 }
