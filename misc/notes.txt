@@ -1,0 +1,72 @@
+.bg {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.385) 7.31%, rgba(0, 0, 0, 0) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/bg-image-banner.png');
+        background: linear-gradient(360deg, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, rgba(0, 0, 0, 0.385) 7.31%, rgba(0, 0, 0, 0) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/bg-image-banner.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+
+
+
+// companyBanner.style.background = colorCode1;
+// console.log(colorCode1);
+// console.log(companyBanner.style.background);
+
+
+// var companyBanner = document.querySelector(".companyBanner");
+
+const colorThief = new ColorThief();
+
+
+ 
+const companyProductImage = document.querySelector("#companyProductImage");
+
+
+console.log("companyProductImage");
+console.log(companyProductImage);
+
+// Make sure image is finished loading
+// if (companyBanner.complete) {
+//   colorThief.getColor(companyProductImage);
+//   console.log("colorThief is working");
+// } else {
+//   companyBanner.addEventListener("load", function () {
+//     colorThief.getColor(companyProductImage);
+//     console.log("colorThief is not working");
+//   });
+// }
+
+// thumbnail
+// if (thumbnail.complete) {
+//   colorThief.getColor(thumbnail);
+//   console.log("colorThief is working");
+// } else {
+//   thumbnail.addEventListener("load", function () {
+//     colorThief.getColor(thumbnail);
+//     console.log("colorThief is not working");
+//   });
+// }
+
+// console.log(colorThief.getPalette(companyProductImage, 2));
+
+// var imageColors = colorThief.getPalette(companyProductImage, 2);
+
+// console.log(colorThief.getPalette(thumbnail, 2));
+
+// var color1r = imageColors[1][0];
+// var color1g = imageColors[1][1];
+// var color1b = imageColors[1][2];
+
+// var color2r = imageColors[0][0];
+// var color2g = imageColors[0][1];
+// var color2b = imageColors[0][2];
+
+// var colorCode1 = "rgb(" + color1r + "," + color1g + "," + color1b + ")";
+// var colorCode2 = "rgb(" + color2r + "," + color2g + "," + color2b + ")";
+
+// companyBanner.style.background =
+//   "linear-gradient(" + colorCode1 + "," + colorCode2 + ")";
+// companyBanner.style.background = colorCode2;
+// companyBanner.style.background = "#f5f";
+
+//function for displaying the image upload preview

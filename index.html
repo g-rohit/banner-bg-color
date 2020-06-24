@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colored Banner</title>
+    <link rel="stylesheet" href="css/style.min.css">
+ 
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.13.0/css/all.css">
+</head>
+
+<body>
+    <!-- navbar image STARTS -->
+    <header>
+        <img src="assets/header.png" alt="" class="image-responsive">
+    </header>
+    <!-- navbar image ENDS -->
+
+    <!-- company info and products STARTS -->
+    <div class="container">
+
+
+        <div class="firstFold">
+            <section>
+
+                <div class="companyBanner">
+                    <div class="companyBannerContent">
+                        <h1 class="companyName">
+                            WORIO INTERNATIONAL
+                        </h1>
+                        <div class="verifiedTag">
+                            <span class="svg-icon">
+                                <img src="assets/tick-icon.svg" alt="" class="svg-icon"></span> &nbsp;Verified
+                            Supplier
+                        </div>
+                        <div class="social-links">
+                            <ul>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer"><img
+                                            src="assets/Instagram.svg" alt="instagram-icon" class="svg-icon"></a>
+                                </li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/facebook.svg"
+                                            alt="facebook-icon" class="svg-icon"></a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/twitter.svg"
+                                            alt="twitter" class="svg-icon"></a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/Linkedin.svg"
+                                            alt="Linkedin-icon" class="svg-icon"></a></li>
+                                <li><a href="#" target="_blank" rel="noopener noreferrer"><img src="assets/Youtube.svg"
+                                            alt="Youtube-icon" class="svg-icon"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </section>
+            <aside>
+                <div class="companyProduct">
+                    <img src="" class="image-responsive" id="companyProductImage" alt="companyProductImage">
+                </div>
+            </aside>
+        </div>
+
+        <section class="m-24">
+            <p class="uploader">
+                <a class="btn-secondary">
+                                        <span class="icon is-small">
+                                            <i class="fas fa-upload"></i>
+                                        </span>
+                                        <span>Upload image</span>
+                                        <input type="file" accept="image/*" onchange="showMyImage(this)" value=""
+                                        class="button button is-dark chooseFile" />
+                                    </a>
+              </p>
+          <!-- Image preview -->
+          <!-- <div class="field">
+            <img id="thumbnail" src="" alt="image-preview-here" />
+          </div> -->
+             
+        </section>
+
+    </div>
+    <!-- company info and products ENDS -->
+    <footer>
+        <div>
+            <img src="assets/Footer.png" alt="footer" class="image-responsive">
+        </div>
+    </footer>
+</body>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script> -->
+<script src="JS/vendor/color-thief.umd.js"></script>
+
+<script src="JS/bannerBg.js"></script>
+
+</html>
