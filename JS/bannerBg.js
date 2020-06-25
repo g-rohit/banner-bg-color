@@ -88,5 +88,6 @@ console.log(createBg);
 
   companyBanner.style.background =  createBg ;
   companyBanner.style.backgroundSize = 'cover';
+  companyBanner.style.backgroundRepeat =  'no-repeat';
  
 }
