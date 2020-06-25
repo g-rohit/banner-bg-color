@@ -236,6 +236,10 @@ footer {
   bottom: 0;
 }
 
+.uploadImageSection {
+  min-height: 250px;
+}
+
 .uploader {
   cursor: pointer;
   position: relative;
