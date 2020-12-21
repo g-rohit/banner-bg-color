@@ -242,6 +242,10 @@ button {
 }
 
 
+.spacer {
+  height: 300px;
+}
+
 footer {
     position: absolute;
     bottom: 0;
@@ -280,3 +284,50 @@ footer {
     height: auto;
   }
   
+
+  
+// code for aspect ratio
+
+.outer {
+    position: relative;
+    margin-bottom: 30px;
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: (9 / 16) * 100%;
+    }
+    > .inner {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      // background: #eee;
+  
+      // border: 1px solid;
+  
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+
+
+
+  // cards 
+
+  .cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+ 
+
+  }
+  .eachCard {
+    max-width: 300px;
+    margin: 1%;
+    width: 100%;
+  }
+
