@@ -177,7 +177,7 @@ function rgb2Hsl(r, g, b) {
 // generating paltters for images
 // console.log(document.querySelectorAll(".inner > img"));
 
-console.log(
+setTimeout(function () {
   document.querySelectorAll(".inner>img").forEach((each) => {
     // console.log(each.currentSrc);
 
@@ -226,4 +226,6 @@ console.log(
       });
     }
   })
-);
+}, 500);
+
+ 
